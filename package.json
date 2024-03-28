@@ -1,7 +1,17 @@
 {
-  "name": "okr-salvo",
-  "version": "0.1.0",
-  "private": true,
+  "name": "next-boilerplate-salvo",
+  "version": "1.0.0",
+  "description": "A boilerplate for Next.js with Redux, TS and SCSS",
+  "keywords": [
+    "next",
+    "react",
+    "ts",
+    "docker",
+    "npm"
+  ],
+  "author": "Salvo Falcone",
+  "license": "MIT",
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
