@@ -1,0 +1,16 @@
+@import "@/styles/styles.scss";
+
+.main {
+  @include flex();
+  height: calc(100vh - 80px);
+
+  &__counter {
+    @include flex($justify-content: space-between);
+    background-color: $black;
+    border: 3px solid $orange;
+    border-radius: 4px;
+    color: $white;
+    padding: 24px;
+    width: 300px;
+  }
+}

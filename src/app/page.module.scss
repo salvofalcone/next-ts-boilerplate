@@ -1,0 +1,7 @@
+@import "@/styles/styles.scss";
+
+.main {
+  border: 2px solid $lazuli;
+  @include flex();
+  height: calc(100vh - 80px);
+}
